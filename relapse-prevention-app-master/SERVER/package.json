@@ -1,0 +1,17 @@
+{
+  "name": "twilio-server",
+  "version": "1.0.0",
+  "description": "Twilio server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "twilio": "^2.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\jpelu\AndroidStudioProjects\relapse-prevention-app\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d39566056c672377eb97eab33463a210923814f6">
+        <dex dex="C:\Users\jpelu\AndroidStudioProjects\relapse-prevention-app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ad5bff59f42233bde06ee3c17db5a059fa91c7c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jpelu\AndroidStudioProjects\relapse-prevention-app\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\jpelu\AndroidStudioProjects\relapse-prevention-app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b5cefefcd2d23ef3360241810b99313e67d56767\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jpelu\AndroidStudioProjects\relapse-prevention-app\app\libs\twilio-7.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0f182852a43a766b97fc5fe6ccfdcf245799bdee">
+        <dex dex="C:\Users\jpelu\AndroidStudioProjects\relapse-prevention-app\app\build\intermediates\transforms\dex\debug\folders\1000\2\twilio-7.9.0_1a3f0f83f2f8e251bbef0f5b028c7bb3322348cd\classes.dex" />
+    </item>
+
+</items>

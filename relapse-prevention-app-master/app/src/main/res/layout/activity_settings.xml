@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="drugapp.myapplication.Settings">
+
+    <TableLayout
+        android:layout_width="370dp"
+        android:layout_height="498dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/editText"
+                android:hint="Contact number"
+                android:inputType="phone"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/but1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/but1"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage"
+                android:text="Submit"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:text="Current Number: "
+                android:layout_marginLeft="13dp"
+                android:textSize="17dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/numtext"
+                app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+            <TextView
+                android:id="@+id/numtext"
+                android:text="TextView"
+                android:layout_marginLeft="13dp"
+                android:textSize="17dp"
+                app:layout_constraintLeft_toRightOf="@+id/textView6"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/but1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:hint="Your name:"
+                android:inputType="text"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/but2"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <Button
+                android:id="@+id/but2"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendName"
+                android:text="Submit"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textbox80"
+                android:text="Current Name: "
+                android:layout_marginLeft="13dp"
+                android:textSize="17dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/nametext"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+            <TextView
+                android:id="@+id/nametext"
+                android:text="TextView"
+                android:textSize="17dp"
+                android:layout_marginLeft="13dp"
+                app:layout_constraintLeft_toRightOf="@+id/textbox80"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/but2" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
